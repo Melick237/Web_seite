@@ -1,0 +1,69 @@
+html {
+    background: url("fond.jpeg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#logo {
+    float: left; /* Das Logo soll linksbündig sein,       */
+   /* background-color: black;*/
+    width: 120px;
+    padding-left: 60px;
+    margin: 20px;
+    background-color: black;
+}
+#nav {
+    border-radius: 25px;
+    height: fit-content;
+    float: right;       /* die Navigation rechtsbündig, ...      */
+    text-align: right;  /* ... für die Listenelemente, ...       */
+    padding-right: 10px;
+    margin: 20px;
+
+}
+
+#nav li {
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin: 0 8px;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-flex;    /* die inline dargestellt werden sollen. */
+    justify-content: space-around;
+    align-items: baseline;
+}
+#home-bloc{
+    background-color: red;
+}
+
+
+
+.container{
+    width: 999px;
+    margin: 0 auto; /* Si tu veux que ta box soit centré dans la page, mais il lui faut un width */
+    align-content: center;
+    padding: 160px;
+}
+.center{
+    color: white;
+    padding: 50px 10px;
+    text-align: center;
+    font-size: 2.4em;
+    font-family: sans-serif;
+}
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 15px;
+    margin:  0 auto;
+}
+.button2 {border-radius: 25px;}
+.button3 {border-radius: 25px;}
